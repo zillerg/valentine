@@ -80,11 +80,11 @@ document.querySelector('.yes-btn').addEventListener('click', function() {
     });
 
     finalQuestion.innerHTML = `
-        <h2 style='font-size: 3.2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); margin-bottom: 1rem;'>You make me the happiest 💕</h2>
-        <p style='font-size: 1.6rem; line-height: 1.6; margin-bottom: 1rem;'>Every moment with you is a gift</p>
-        <p style='font-size: 1.4rem; line-height: 1.6; margin-bottom: 2rem; opacity: 0.95;'>And I can't wait to spend forever showing you how much you mean to me</p>
+        <h2 style='font-size: 1.8rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); margin-bottom: 1rem;'>You make me the happiest 💕</h2>
+        <p style='font-size: 1.1rem; line-height: 1.6; margin-bottom: 1rem;'>Every moment with you is a gift</p>
+        <p style='font-size: 1rem; line-height: 1.6; margin-bottom: 2rem; opacity: 0.95;'>And I can't wait to spend forever showing you how much you mean to me</p>
         <div style='margin-top: 2.5rem;'>
-            <img src='assets/celebration.gif' style='width:420px; height:420px; object-fit:contain; border-radius:16px;' />
+            <img src='assets/celebration.gif' style='width:350px; height:350px; object-fit:contain; border-radius:16px;' />
         </div>
     `;
 });

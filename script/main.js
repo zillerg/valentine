@@ -1,5 +1,5 @@
 function createParticles() {
-    const emojis = ['❤️', '🌎', '🌠', '💝', '🌟', '💞'];
+    const emojis = ['❤️', '🌎', '🌠', '💝', '🌟', '💞', '💖', '🖤'];
     const container = document.body;
     let lastTime = 0;
 
@@ -84,7 +84,7 @@ document.querySelector('.yes-btn').addEventListener('click', function() {
         <p>Every moment with you is a gift</p>
         <p style='font-size: 0.95rem; margin-top: 1rem; opacity: 0.9;'>And I can't wait to spend forever showing you how much you mean to me</p>
         <div style='margin-top: 2rem;'>
-            <img src='assets/celebration.gif' style='width:200px; height:200px; object-fit:contain; border-radius:16px;' />
+            <img src='assets/celebration.gif' style='width:280px; height:280px; object-fit:contain; border-radius:16px;' />
         </div>
     `;
 });

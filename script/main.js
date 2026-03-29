@@ -80,11 +80,11 @@ document.querySelector('.yes-btn').addEventListener('click', function() {
     });
 
     finalQuestion.innerHTML = `
-        <h2>You make me the happiest 💕</h2>
-        <p>Every moment with you is a gift</p>
-        <p style='font-size: 0.95rem; margin-top: 1rem; opacity: 0.9;'>And I can't wait to spend forever showing you how much you mean to me</p>
-        <div style='margin-top: 2rem;'>
-            <img src='assets/celebration.gif' style='width:280px; height:280px; object-fit:contain; border-radius:16px;' />
+        <h2 style='font-size: 3.2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); margin-bottom: 1rem;'>You make me the happiest 💕</h2>
+        <p style='font-size: 1.6rem; line-height: 1.6; margin-bottom: 1rem;'>Every moment with you is a gift</p>
+        <p style='font-size: 1.4rem; line-height: 1.6; margin-bottom: 2rem; opacity: 0.95;'>And I can't wait to spend forever showing you how much you mean to me</p>
+        <div style='margin-top: 2.5rem;'>
+            <img src='assets/celebration.gif' style='width:420px; height:420px; object-fit:contain; border-radius:16px;' />
         </div>
     `;
 });
@@ -105,7 +105,7 @@ noBtn.addEventListener('click', function() {
     const scale = Math.max(0.2, 1 - noHitCount * 0.15);
     this.style.transform = `scale(${scale}) translate(${Math.random() * 200 - 100}px, ${Math.random() * 200 - 100}px)`;
     this.style.transition = 'all 0.3s ease';
-    showFloatingImage('assets/caught.png');
+    showFloatingImage('assets/caught.webp');
 
     // hide button completely after 5 hits
     if (noHitCount >= 5) {

@@ -80,8 +80,9 @@ document.querySelector('.yes-btn').addEventListener('click', function() {
     });
 
     finalQuestion.innerHTML = `
-        <h2>🎉 I know you're my baby boo 💝</h2>
-        <p>You've made my heart explode with joy!</p>
+        <h2>You make me the happiest 💕</h2>
+        <p>Every moment with you is a gift</p>
+        <p style='font-size: 0.95rem; margin-top: 1rem; opacity: 0.9;'>And I can't wait to spend forever showing you how much you mean to me</p>
         <div style='margin-top: 2rem;'>
             <img src='assets/celebration.gif' style='width:200px; height:200px; object-fit:contain; border-radius:16px;' />
         </div>
@@ -104,7 +105,7 @@ noBtn.addEventListener('click', function() {
     const scale = Math.max(0.2, 1 - noHitCount * 0.15);
     this.style.transform = `scale(${scale}) translate(${Math.random() * 200 - 100}px, ${Math.random() * 200 - 100}px)`;
     this.style.transition = 'all 0.3s ease';
-    showFloatingImage('assets/caught.gif');
+    showFloatingImage('assets/caught.png');
 
     // hide button completely after 5 hits
     if (noHitCount >= 5) {
